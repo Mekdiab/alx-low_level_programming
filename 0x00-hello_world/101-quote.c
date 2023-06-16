@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - Prints "and that piece of art is useful" - - Dora Korpar
- * followed by a new line, to standard error.
- * Return: 1 always
+ * main- Entry point
+ *
+ * Description: A program that prints to standard error
+ *
+ * Return: Always 1 (success)
  */
 int main(void)
 {
-	write(2,
-		"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-
+	fprintf(stderr,
+			"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 	return (1);
 }
