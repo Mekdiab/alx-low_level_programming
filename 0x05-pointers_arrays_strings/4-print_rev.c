@@ -16,5 +16,3 @@ void print_rev(char *s)
 		_putchar(s[i]);
 	_putchar('\n');
 }
-Footer
-© 2023 GitHub, Inc.
