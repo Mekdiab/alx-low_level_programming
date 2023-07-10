@@ -1,4 +1,3 @@
-julien@ubuntu:~/0x09. Static Librairies$ cat main.c 
 #include "main.h"
 
 int main(void)
