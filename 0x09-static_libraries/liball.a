@@ -1,1 +1,1 @@
-$ ar -rc libname.a *.o
+$ ar -rc libmy.a *.o
