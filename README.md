@@ -1,1 +1,2 @@
- 0x16. C - Simple Shell was a group project
+#0x16. C - Simple Shell 
+is a group project 
