@@ -138,3 +138,7 @@ void remove_comments(char *buf)
 			break;
 		}
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e22c0738b7aac3eea22ba86f6ed219cf30872c23

@@ -72,3 +72,7 @@ char *_strchr(char *s, char c)
 
 	return (NULL);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e22c0738b7aac3eea22ba86f6ed219cf30872c23

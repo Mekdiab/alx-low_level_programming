@@ -91,3 +91,7 @@ int _setenv(info_t *info, char *var, char *value)
 	info->env_changed = 1;
 	return (0);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e22c0738b7aac3eea22ba86f6ed219cf30872c23

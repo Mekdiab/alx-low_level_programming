@@ -71,7 +71,11 @@ int print_alias(list_t *node)
 	{
 		p = _strchr(node->str, '=');
 		for (a = node->str; a <= p; a++)
+<<<<<<< HEAD
 			_putchar(*a);
+=======
+		_putchar(*a);
+>>>>>>> e22c0738b7aac3eea22ba86f6ed219cf30872c23
 		_putchar('\'');
 		_puts(p + 1);
 		_puts("'\n");
@@ -113,3 +117,7 @@ int _myalias(info_t *info)
 
 	return (0);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e22c0738b7aac3eea22ba86f6ed219cf30872c23

@@ -13,9 +13,15 @@ int main(int ac, char **av)
 	int fd = 2;
 
 	asm ("mov %1, %0\n\t"
+<<<<<<< HEAD
 		"add $3, %0"
 		: "=r" (fd)
 		: "r" (fd));
+=======
+			"add $3, %0"
+			: "=r" (fd)
+			: "r" (fd));
+>>>>>>> e22c0738b7aac3eea22ba86f6ed219cf30872c23
 
 	if (ac == 2)
 	{
@@ -42,3 +48,7 @@ int main(int ac, char **av)
 	hsh(info, av);
 	return (EXIT_SUCCESS);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e22c0738b7aac3eea22ba86f6ed219cf30872c23

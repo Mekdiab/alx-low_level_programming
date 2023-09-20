@@ -27,7 +27,10 @@ void set_info(info_t *info, char **av)
 		info->argv = strtow(info->arg, " \t");
 		if (!info->argv)
 		{
+<<<<<<< HEAD
 
+=======
+>>>>>>> e22c0738b7aac3eea22ba86f6ed219cf30872c23
 			info->argv = malloc(sizeof(char *) * 2);
 			if (info->argv)
 			{
@@ -72,3 +75,7 @@ void free_info(info_t *info, int all)
 		_putchar(BUF_FLUSH);
 	}
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e22c0738b7aac3eea22ba86f6ed219cf30872c23
