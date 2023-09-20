@@ -26,9 +26,15 @@ int is_delim(char c, char *delim)
 }
 
 /**
+<<<<<<< HEAD
  *_isalpha - checks for alphabetic character
  *@c: The character to input
  *Return: 1 if c is alphabetic, 0 otherwise
+=======
+ * _isalpha - checks for alphabetic character
+ * @c: The character to input
+ * Return: 1 if c is alphabetic, 0 otherwise
+>>>>>>> ee0cdead7216151c6fc59faca3b5a16fd39e1c8b
  */
 
 int _isalpha(int c)
@@ -40,9 +46,15 @@ int _isalpha(int c)
 }
 
 /**
+<<<<<<< HEAD
  *_atoi - converts a string to an integer
  *@s: the string to be converted
  *Return: 0 if no numbers in string, converted number otherwise
+=======
+ * _atoi - converts a string to an integer
+ * @s: the string to be converted
+ * Return: 0 if no numbers in string, converted number otherwise
+>>>>>>> ee0cdead7216151c6fc59faca3b5a16fd39e1c8b
  */
 
 int _atoi(char *s)
@@ -50,7 +62,11 @@ int _atoi(char *s)
 	int i, sign = 1, flag = 0, output;
 	unsigned int result = 0;
 
+<<<<<<< HEAD
 	for (i = 0;  s[i] != '\0' && flag != 2; i++)
+=======
+	for (i = 0; s[i] != '\0' && flag != 2; i++)
+>>>>>>> ee0cdead7216151c6fc59faca3b5a16fd39e1c8b
 	{
 		if (s[i] == '-')
 			sign *= -1;
@@ -72,3 +88,7 @@ int _atoi(char *s)
 
 	return (output);
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> ee0cdead7216151c6fc59faca3b5a16fd39e1c8b
